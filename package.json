@@ -1,0 +1,30 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "optimization PWA chapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esroleo/food-festival.git"
+  },
+  "author": "Esteban Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esroleo/food-festival/issues"
+  },
+  "homepage": "https://github.com/esroleo/food-festival#readme",
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
